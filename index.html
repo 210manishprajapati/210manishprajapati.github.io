@@ -1,142 +1,84 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Manish Prajapati - webpage</title>
-  <link rel="stylesheet" type="text/css" href="reset.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
-    
-    
-    
+	<title>Manish Prajapati - Portfolio webpage</title>
+	<!-- css files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+	<meta name="author" content="Manish Prajapati">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+	<body>
+		<!-- Navbar -->
+		<nav class="nav container void-background">
+			<div class="nav-left">
+				<a href="./assets/resume.pdf" class="nav-item resume" style="color: #f8f8ff; font-weight: bold;">
+					Resume
+				</a>
+			</div>
 
-  <!-- Header -->
-  <nav class="header">
-    <ul>
-      <li><a class="pagelink" href="#top">About</a></li>
-      <li><a class="pagelink" href="#life">life</a></li>
-      <li><a class="pagelink" href="#skills">Skills</a></li>
-      <li><a class="pagelink" href="#contact">Contact</a></li>
-      <li style="float:right"><a class="home" href="index.html">Manish  Prajapati</a></li>
-    </ul>
-  </nav>
+			<div class="nav-right nav-menu">
+				<a class="nav-item" href="#about">About</a>
+				<a class="nav-item" href="#connect">Connect</a>
+			</div>
 
-  <!-- Banner Section -->
-  <div class="banner">
-    <img src="profilepic.jfif" id="profile" >
-    <h1 class="top-intro">Hey there!   I'm Manish.</h1>
-      
-      <p class="p-left">It's great to see you here !</p>
-      <p></p>
-      <p></p>
-    <p >
-        I'm an undergrad from <span style='color: #FFFACD'>IIT Guwahati</span> and will be graduating in 2023, with a major in <span style='color: #FFFACD'>Mathematics and Computing</span>. I am currently learning for software development roles and will learn more in future to make things that are helpful for society.</p>
-  </div>
+			<!-- This "nav-toggle" is only visible on mobile -->
+			<span class="nav-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</nav>
 
-  <!-- life Section -->
-  <div id="life">
+		<!-- About Me -->
+		<section id="about" class="section section-1">
+			<div class="container has-text-centered">
+				<img class="avatar" src="assets/img/profile.png">
+			</div>
+			<div class="container"></br>
+				<p class="intro" style="padding-bottom: 10px; color: #f8f8ff; ">
+					Hey there! I am Manish Prajapati, currently pursuing my bachelor's from <a href="https://www.iitg.ac.in/" style="font-weight: 1000; color: #728FCE;">Indian Institute of Technology </a>in Mathematics and Computing. I am interested in software development and works surrounding it. I will also be the software enginnering intern in <a href="https://www.microsoft.com/en-in/msidc/" style="font-weight: 1000; color: #728FCE;"> Microsoft IDC </a> in 2022. Previously, I have worked with <a href="https://www.gox.ai/" style="font-weight: 1000; color: #728FCE;"> Gox</a> as an web development internship and also built some cool projects. You can view my resume <a href= "./assets/resume.pdf" style="font-weight: 1000; color: #728FCE;"> here </a> . Recently, I have started working on some open source projects about which I will share details soon!!
+				</p>
 
-    <!-- Editorial Section - Serif -->
-    <div class="editorial">
-      <h2>Education</h2>
-      <p>My education started with the immense love from my parents and after clearing Jee Advanced, I am doing Btech from IIT Guwahati focussed in Mathematics and computing. Learning Maths was always beautiful and encorporating it with computer science makes it more.</p>
-      
-    </div>
+				<p class="intro" style="color: #f8f8ff; ">
+					 Talking about my life, I am an Indian, was born in Madhya Pradesh, primary education in Gujarat, and Secondary & Senior Secondary education in Uttar Pradesh, and now in Assam for the Bachelor's in Technology. I love travelling, workout, and watching Marvel Cinematic Universe (movies or web series). let's connect and talk more !!
+				</p>
+			</div>
+		</section>
 
-    <!-- Font Card - Serif -->
-    <div class="font-card garamond">
-      <h2>Journey</h2>
-        <main>
-            <div class="row">
-                
-              <div class="column" style="background-color:#425971;">
-                  <a target="_blank" href="https://mvmorai.org/">
-                  <img src="download.jpg" style="align-content:space-around" class="col-img small">
-                  </a>
-                <h3 class="journey-des">High School and Intermediate </h3>
-                
-              </div>
-              <div class="column" style="background-color:#425971;">
-                  <a target="_blank" href="http://www.iitg.ac.in/">
-                  <img src="download.png" style="align-content:space-around" class="col-img small">
-                  </a>
-                <h3 class="journey-des">B.Tech in Mathematics and computing (2019-23)</h3>
-                  
-              </div>
-              <div class="column" style="background-color:#425971;">
-                
-                  <a target="_blank" href="https://www.iitg.ac.in/stud/gymkhana/technical/home/CodingHome.html">
-                  <img src="download%20(1).jpg" style="align-content:space-around" class="col-img small">
-                  </a>
-                  
-                <h3 class="journey-des">Coordinator - Coding club IITG (present)</h3>
-                  
-              </div>
-            </div>
-            
-        </main>
-    </div>
-  </div>
 
-  <!-- Skills Section -->
-  <div id="skills">
+		<!-- Social -->
+		<section id="connect" class="section section-3">
+			<div class="container">
+				<div class="has-text-centered">
+					<h3 class="title is-3">Let's Connect or Say Hi!!</h3>
+				</div>
+				<div class="social-container columns">
+					<div class="column is-3 has-text-centered">
+						<a target="_blank" href="https://www.linkedin.com/in/manish210/"><img class="" src="assets/img/linkedin.png"></a>
+					</div>
+					<div class="column is-3 has-text-centered">
+						<a target="_blank" href="https://github.com/Manish-210"><img class="" src="assets/img/github.jpeg"></a>
+					</div>
+					<div class="column is-3 has-text-centered">
+						<a target="_blank" href="https://twitter.com/210manish"><img class="" src="assets/img/twitter.jpeg"></a>
+					</div>
+					<div class="column is-3 has-text-centered">
+						<a target="_blank" href="https://www.facebook.com/profile.php?id=100015912336367"><img class="" src="assets/img/facebook.png"></a>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <!-- Editorial Section - Sans-Serif -->
-    <div class="editorial">
-      <h2>Skills</h2>
-      <div class="col-12 " style="text-align: left">
-          <b>• Programming Languages : &emsp; • C &emsp; • C++ &emsp; • Python &emsp; • JavaScript </b>
-          
-        </div>
-        
-        <div class="col-12 spacer" ></div>
-        <div class="col-12" style="text-align: left">
-          <b>• Web and App Technologies : &emsp;• Django &emsp; • NodeJS</b>
-          
-        </div>
-        
-        <div class="col-12 spacer"></div>
-        <div class="col-12" style="text-align: left">
-          <b>• Miscellaneous : &emsp; • Git &emsp; • Arduino</b>
-          
-        </div>
-        
-        <div class="col-12 spacer"></div>
-    </div>
+		<!-- Footer -->
+		<section class="section-4 has-text-centered container">
+			<a href="#"> © Developed and Maintained by Manish Prajapati</a>
+		</section>
 
-    <!-- Font Card - Sans-Serif -->
-    <div class="font-card">
-        <h2>Web Development : </h2>
-      <p class="creator">I started it recently with Django and NodeJS and will learn more in the journey.</p>
-      <h2>Data Science and Machine learning : </h2>
-      <p class="creator">I was interested in Machine Learning and after completing courses in it, I started Data Science with summer analytics in summer 2020 and will learn more ahead.</p>
-      <h2>Competitive programming : </h2>
-        <p class="creator">Problem Solving is an art and I loved it therefore I started competitive programming on <a style='color: mediumslateblue' href="https://www.codechef.com/users/manish210" title="visit my profile on codechef">codechef</a> .</p>
-      
-    </div>
-  </div>
-
-  <div id="contact">
-
-    <div class="editorial">
-      <h2>Feel Free to connect with me</h2>
-        <ul class="bar">
-        <li><a href="https://www.linkedin.com/in/manish-prajapati-9970641a0/" title="connect with linkedin"> Linkedin</a></li>
-          <li><a href="mailto:manish.prajapati@iitg.ac.in" title="send a mail">Mail</a></li>
-            <li><a href="https://www.facebook.com/profile.php?id=100015912336367" title="connect with facebook">Facebook</a></li>
-          <li><a href="https://www.instagram.com/manish.prajapati210/"  title="connect with instagram">Instagram</a></li>
-            <li> <a href="https://github.com/Manish-210"  title="see my repositories">Github</a></li>
-        </ul>
-        
-        
-    </div>
-
-    
-  </div>
-</body>
+		<!-- Scripts  -->
+		<script src="controller.js"></script>
+	</body>
 </html>
-
